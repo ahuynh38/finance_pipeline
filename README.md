@@ -62,13 +62,13 @@ finance_pipeline/
 
 ---
 
-## data source
+## Data Source
 
 Stock price data is sourced from the [Alpha Vantage API](https://www.alphavantage.co). The free tier provides up to 25 API calls per day, which is sufficient for this project.
 
 ---
 
-## key concepts demonstrated
+## Key Concepts Demonstrated
 
 - ELT pipeline pattern (extract → load raw → transform in-place)
 - Separation of raw and analytics data layers
