@@ -1,0 +1,12 @@
+finance_pipeline:
+  outputs:
+    dev:
+      dbname: financial_pipeline
+      host: localhost
+      pass: <your_pass>
+      port: 5432
+      schema: analytics
+      threads: 1
+      type: postgres
+      user: postgres
+  target: dev
