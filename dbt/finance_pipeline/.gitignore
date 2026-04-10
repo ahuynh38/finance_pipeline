@@ -2,4 +2,5 @@
 target/
 dbt_packages/
 logs/
+dbt/logs
 dbt/financial_pipeline/logs/
