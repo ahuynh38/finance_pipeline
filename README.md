@@ -1,4 +1,4 @@
-# finance_pipeline
+<img width="1053" height="640" alt="image" src="https://github.com/user-attachments/assets/28d3df4e-af0d-4c0c-93b3-09ec3d7a4d03" /># finance_pipeline
 
 An end-to-end ELT pipeline that extracts financial market data from the Alpha Vantage API, loads it into PostgreSQL, transforms it with dbt, and visualizes it in Metabase.
 
@@ -7,6 +7,10 @@ An end-to-end ELT pipeline that extracts financial market data from the Alpha Va
 ## Overview
 
 This project demonstrates a production-style data pipeline built around a personal finance use case. Raw stock price data is extracted from a public API, loaded into a local PostgreSQL database, transformed into analytics-ready models using dbt, and surfaced through a Metabase dashboard featuring price, risk, and performance analysis across 9 tickers.
+
+<img width="1062" height="987" alt="image" src="https://github.com/user-attachments/assets/a979544c-ce1a-452a-91dc-d6d20daadd55" />
+<img width="1059" height="507" alt="image" src="https://github.com/user-attachments/assets/310920ee-1027-477f-9e30-6a7904b83500" />
+<img width="1053" height="640" alt="image" src="https://github.com/user-attachments/assets/d5069de9-9545-4d13-a513-97547043bc79" />
 
 ---
 
