@@ -6,7 +6,13 @@ from datetime import datetime
 
 # API config
 API_KEY = os.environ.get("ALPHA_VANTAGE_KEY")
-TICKERS = ["GOOGL", "MSFT"]
+TICKERS = [
+    "AAPL", "GOOGL", "MSFT", "NVDA", # large cap tech
+    "AMZN", "META",                  # more tech
+    "JPM",                           # financials
+    "JNJ",                           # defensive, low volatility
+    "SPY"                            # benchmark
+]
 
 # database config
 DB_CONFIG = {
@@ -66,6 +72,9 @@ def main():
     for ticker in TICKERS:
         print(f"Fetching {ticker}...")
         daily_data = fetch_prices(ticker)
+        if not daily_data:
+            print(f"Skipping {ticker} -- no data returned")
+            continue
         load_prices(ticker, daily_data)
         time.sleep(2)
 
