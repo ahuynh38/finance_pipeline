@@ -75,6 +75,8 @@ All models live in `dbt/financial_pipeline/models/analytics/` and form a depende
 | `beta_30d` | 30-day rolling beta relative to SPY | COVAR_SAMP(), VAR_SAMP(), self JOIN |
 | `alpha` | daily alpha vs CAPM expected return | CAPM formula, arithmetic |
 
+<img width="1161" height="945" alt="image" src="https://github.com/user-attachments/assets/bc388442-6f87-4797-95ae-0a9ce302fb53" />
+
 ---
 
 ## Dashboard
