@@ -1,4 +1,4 @@
-<img width="1053" height="640" alt="image" src="https://github.com/user-attachments/assets/28d3df4e-af0d-4c0c-93b3-09ec3d7a4d03" /># finance_pipeline
+# finance_pipeline
 
 An end-to-end ELT pipeline that extracts financial market data from the Alpha Vantage API, loads it into PostgreSQL, transforms it with dbt, and visualizes it in Metabase.
 
